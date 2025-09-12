@@ -5,6 +5,6 @@ resource "aws_instance" "example" {
 ami = "ami-0360c520857e3138f"  # Specify an appropriate AMI ID
 instance_type = "t2.micro"
 subnet_id = "subnet-051535bff8b201e9e"
-key_pair = "dockerdemo"
+key_name = "dockerdemo"
 }
 
